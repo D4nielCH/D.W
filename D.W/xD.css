@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
+  border: 3px solid #ffffff;
+}
+
+body {
+  min-height: 100%;
+}
+.img-d {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.drc {
+  display: flex;
+  margin: 0px 60px;
+  gap: 30px;
+  align-items: center;
+}
+
+main {
+  background-image: url(https://e0.pxfuel.com/wallpapers/351/15/desktop-wallpaper-japanese-for-your-mobile-tablet-explore-japanese-dragon-chinese-dragon-dragons-3d-dragon-aesthetic-dragon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #ffffff;
+  background-position: center;
+  background-attachment: ;
+  height: 1239px;
+  width: 1239px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tx {
+  color: #ffffff;
+  width: auto;
+  align-items: ;
+  display: flex;
+}
+.tx2 {
+  color: #ffffff;
+  width: auto;
+ display: flex;
+}
+.ctx {
+  display: flex;
+  background-color: black;
+  margin: 50px;
+  height: 300px;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+}
+.btn:hover {
+  background-color: rgb(206, 20, 20);
+}

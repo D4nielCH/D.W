@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #0000002f;
+  padding: 15px 20px;
+  margin-bottom: 60px;
+}
+
+.izq {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  margin-bottom: 4px;
+}
+
+.google-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drch {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 50%;
+}
+.ic {
+  border-radius: 50%;
+}
+main {
+  margin-left: 50px;
+}
+.box-c {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(25, 25, 25, 0.18);
+}
+.head-c {
+  background-color: rgb(0, 102, 255);
+  border-radius: 10px 10px 0px 0px;
+  width: 300px;
+  height: 100px;
+  text-decoration: none;
+}
+
+.carta {
+  border: 1px solid rgba(25, 25, 25, 0.18);
+  width: 300px;
+  height: 150px;
+  border-top: 1px solid rgba(49, 49, 49, 0.23);
+}
+
+.foodc {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 10px 10px;
+  width: 300px;
+  height: 45px;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-color: black;
+  border: 2px;
+  display: flex;
+  justify-content: end;
+}
+
+.boton-1{
+gap: 90px;
+ display: flex;
+ align-items: center;
+}
+.bt{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
